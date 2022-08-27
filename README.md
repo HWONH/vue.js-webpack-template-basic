@@ -1,28 +1,13 @@
-# Vue3 템플릿 with Webpack
+# Vue3 Template with Webpack
 
-## Versions
+## Reference
 
-- [Default](https://github.com/ParkYoungWoong/vue3-webpack-template/tree/master)<br>
-- [+ESLint](https://github.com/ParkYoungWoong/vue3-webpack-template/tree/eslint)<br>
-- [+ESLint+Vuex](https://github.com/ParkYoungWoong/vue3-webpack-template/tree/vuex)<br>
-- [+ESLint+Vuex+VueRouter](https://github.com/ParkYoungWoong/vue3-webpack-template/tree/vue-router)<br>
+- [https://github.com/ParkYoungWoong/vue3-webpack-template](https://github.com/ParkYoungWoong/vue3-webpack-template)
 
 ## Installation
 
 ```bash
-# Default.
-$ npx degit ParkYoungWoong/vue3-webpack-template DIRECTORY_NAME
-
-# With ESLint, Add `#eslint`.
-$ npx degit ParkYoungWoong/vue3-webpack-template#eslint DIRECTORY_NAME
-
-# With ESLint + Vuex, Add `#vuex`.
-$ npx degit ParkYoungWoong/vue3-webpack-template#vuex DIRECTORY_NAME
-
-# With ESLint + Vuex + VueRouter, Add `#vue-router`.
-$ npx degit ParkYoungWoong/vue3-webpack-template#vue-router DIRECTORY_NAME
-
-# Start!
+$ npx degit HWONH/vue.js-webpack-template-basic DIRECTORY_NAME
 $ cd DIRECTORY_NAME
 $ npm i
 $ npm run dev
@@ -71,7 +56,7 @@ __@vue/compiler-sfc__: .vue 파일(SFC, 3버전)을 해석<br>
 
 __eslint__: 정적 코드 분석 도구 __(+ESLint)__<br>
 __eslint-plugin-vue__: Vue.js 코드 분석 __(+ESLint)__<br>
-__babel-eslint__: ES6 이상의 코드(Babel)를 분석 __(+ESLint)__<br>
+__@babel/eslint-parser__: ES6 이상의 코드(Babel)를 분석 __(+ESLint)__<br>
 
 __vuex__: 중앙 집중식 저장소 __(+Vuex)__<br>
 __vue-router__: 라우터 __(+VueRouter)__<br>
